@@ -1,0 +1,33 @@
+header {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+    .menu-toggle {
+        position: fixed;
+        top: 50px;
+        right: 0px;
+        padding: 0 $container-padding;
+        z-index: 99;
+
+        .btn {
+            padding: 10px 13px;
+        }
+    }
+
+    .slideshow {
+        width: 100%;
+        height: 100vh;
+        position:relative;
+        overflow: hidden;
+
+        &-nav {
+            position: absolute;
+            bottom: 50px;
+            right: 0;
+            padding-right: $container-padding;
+
+        }
+    }
+
+}
