@@ -1,15 +1,18 @@
 .btn {
     display: inline-block;
+    padding: 10px;
     background-color: #ffff;
     color: $primary-color;
+    font-size: 20px;
     text-align: center;
+    
 
     &:hover {
         cursor: pointer;
     }
 
     &.primary {
-        background-color: $primary-color;
+        background-color:  rgba(12, 12, 12, 0.9);
         color: #ffff;
     }
 
@@ -29,5 +32,13 @@
 
     &.active {
         background-color: #ffff;
+    }
+}
+
+#contact-me {
+    .about-info {
+        grid-template-areas: 
+        'bioimage'
+        'bio';
     }
 }

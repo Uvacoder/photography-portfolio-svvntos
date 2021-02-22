@@ -10,30 +10,167 @@
       integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./css/lightbox.min.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <title>Svvntos Photography</title>
   </head>
   <body>
     <header id="home">
-        <div class="slideshow-nav">
-            <div class="btn secondary prev"><i class="fas fa-chevron-left"></i></div>
-            <div class="btn secondary next"><i class="fas fa-chevron-right"></i></div>
+      <div class="slideshow-nav">
+        <div class="btn secondary prev">
+          <i class="fas fa-chevron-left"></i>
         </div>
-        <div class="menu-toggle">
-            <div class="btn primary"><i class="fas fa-bars"></i></div>
+        <div class="btn secondary next">
+          <i class="fas fa-chevron-right"></i>
         </div>
-        <div class="slideshow-info">
-            <h1>Santos Photography</h1>
-            <p>
-                Seeing the world thru my lens!  
-            </p>
-            <div class="btn">More</div>
-        </div>
-        <div class="slideshow">
-            <div class="slides slide-1 active"></div>
-            <div class="slides slide-2"></div>
-            <div class="slides slide-3"></div>
-        </div>
+      </div>
+      <div class="menu-toggle">
+        <div class="btn primary"><i class="fas fa-bars"></i></div>
+      </div>
+      <div class="slideshow-info">
+        <h1>Santos Photography</h1>
+        <p>Seeing the world through my lens!</p>
+        <div class="btn">More</div>
+      </div>
+      <div class="slideshow">
+        <div class="slides slide-1 active"></div>
+        <div class="slides slide-2"></div>
+        <div class="slides slide-3"></div>
+      </div>
     </header>
+
+    <aside class="sidebar">
+      <div class="logo">
+        <img src="./css/images/logo.png" alt="avatar" />
+      </div>
+      <ul class="sidebar-menu">
+        <li class="active">
+          <span class="dot"></span><a href="#home">Home</a>
+        </li>
+        <li class="active">
+          <span class="dot"></span><a href="#featured-places">Featured</a>
+        </li>
+        <li class="active">
+          <span class="dot"></span><a href="#recent-projects">Recent</a>
+        </li>
+        <li class="active">
+          <span class="dot"></span><a href="#contact-me">Contact Me</a>
+        </li>
+      </ul>
+      <div class="sidebar-social-links">
+        <a  href="https://www.facebook.com/svvntos/"
+        rel="noopener noreferrer"
+        target="_blank"class="fab fa-facebook"></a>
+        <a  href="https://www.instagram.com/svvntos/"
+        rel="noopener noreferrer"
+        target="_blank" class="fab fa-instagram"></a>
+      </div>
+    </aside>
+    <main>
+      <section id="featured-places" class="featured-places">
+        <div class="section-title">
+          <h1>Featured<span> Work</span></h1>
+        </div>
+        <div class="featured-items">
+          <div class="item">
+            <div class="image">
+              <img src="./css/images/featured_1.jpg" alt="item1" />
+              <div class="btn primary">
+                Tony Vision - Summer Collection 2018
+              </div>
+            </div>
+            <h4>Collaboration with Fashion Desinger Tony Vision</h4>
+            <span>Miami, FL 2018</span>
+            <p>This shoot, was the shoot that really got me on the map. This was featured on a magazine in Miami called VoyageMIA, here they had small interview with me about who I was.</p>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="./css/images/featured_2.jpg" alt="item2" />
+              <div class="btn primary">Eric B & Rakim Summer Conect 2017</div>
+            </div>
+            <h4>Concert shots of Hiphop/Rapper Rakim</h4>
+            <span>Fort Laurderdale, FL 2017</span>
+            <p>
+              In 2017, I had the honor to witness and shoot one the most iconc artist & founders or hip-hop in a live concert. Rakim on the mic and Eric B on the one's and two's was a moment that I loved to be there and honor to shoot live!
+            </p>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="./css/images/featured_3.jpg" alt="item3" />
+              <div class="btn primary">NY Fashion Week 2018</div>
+            </div>
+            <h4>NYFW - Runway Shots</h4>
+            <span>NewYork 2018</span>
+            <p>
+              One of my staple moments in my Photography career was when I was given the oppertunity to shoot in NewYork Fashion Week. This week is the mecca of all events when it comes to fashion and runway.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="recent-projects" class="recent-projects">
+        <div class="section-title">
+          <h1>Recent <span>Work</span></h1>
+          <p></p>
+        </div>
+
+        <div class="grid-gallery">
+          <a href="./css/images/portfolio_1.jpg" data-lightbox="example-set">
+            <img src="./css/images/portfolio_1.jpg" alt="portfolio_1" />
+          </a>
+
+          <a href="./css/images/portfolio_2.jpg" data-lightbox="example-set">
+            <img src="./css/images/portfolio_2.jpg" alt="portfolio_2" />
+          </a>
+          <a href="./css/images/portfolio_3.jpg" data-lightbox="example-set">
+            <img src="./css/images/portfolio_3.jpg" alt="portfolio_3" />
+          </a>
+          <a href="./css/images/portfolio_4.jpg" data-lightbox="example-set">
+            <img src="./css/images/portfolio_4.jpg" alt="portfolio_4" />
+          </a>
+          <a href="./css/images/portfolio_5.jpg" data-lightbox="example-set">
+            <img src="./css/images/portfolio_5.jpg" alt="portfolio_5" />
+          </a>
+        </div>
+      </section>
+      <section>
+
+      <div id="contact-me" class="contact-me">
+        
+        <div class="section-title">
+          <h1>Contact <span>Me</span></h1>
+          <p>
+           
+          </p>
+        </div>
+
+        <div class="container">
+          <div class="about-info">
+            <img src="./images/me.png" alt="selfie" class="bio-image" />
+            <div class="bio bg-light">
+              <h4>Your Project Is In Safe Hands</h4>
+              <p>
+                Committed with an unwavering passion for company growth through
+                proactive, methodical, persuasive, and people management skills.
+                Throughout my years of experience and countless projects, I have
+                mastered different skills such as post-production in different environments. Thus, creating a wide
+                range of expertise to deliver outstanding quality photoshoots and live events.
+              </p>
+              </div>
+            </div>
+          </div>
+      
+      </section>
+
+      <section class="footer">
+        <p>Copyright &copy; 2021 - Photography Portfolio</p>
+      </section>
+    </main>
+    <script src="./js/slideshow.js"></script>
+    <script src="./js/sidebar.js"></script>
+    <script src="./js/lightbox.min.js"></script>
+    <script src="./js/lightbox-plus-jquery.min.js"></script>
+
+    <script src="./js/scrollMenu.js"></script>
   </body>
 </html>

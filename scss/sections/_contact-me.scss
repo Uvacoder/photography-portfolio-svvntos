@@ -1,0 +1,23 @@
+#contact-me {
+    .about-info {
+        display: grid;
+        grid-template-areas: 
+        "bioimage bio bio";
+        grid-gap: 1.2rem;
+    }
+    
+    .bio-image {
+        grid-area: bioimage;
+    }
+    
+    .bio {
+        grid: bio;
+        font-size: 18px;
+        border-left: 3 solid #ffffff;
+        padding: 0.8rem;
+    }
+}
+
+
+
+
