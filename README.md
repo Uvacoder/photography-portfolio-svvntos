@@ -4,10 +4,8 @@ Client Porfolio | Joe Santos | Photographer
 # Description
 HTML, CSS/SASS, JS
 
-I created a porfolio for a client that is a Photographer uing Sass!
+I created a porfolio for a client that is a Photographer using Sass!
 
-# Example
-![](example.gif)
 
 
 # Table of Contents
