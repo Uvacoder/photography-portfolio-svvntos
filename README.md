@@ -1,6 +1,6 @@
 # Title ![](https://img.shields.io/badge/License-MIT-important)
 Client Porfolio | Joe Santos | Photographer
-
+----
 # Description
 HTML, CSS/SASS, JS
 
