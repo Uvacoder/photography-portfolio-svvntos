@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/svvntos/photography-portfolio/issues"
   },
-  "homepage": "https://github.com/svvntos/photography-portfolio#readme",
+  "homepage": "https://photography-portfolio-svvntos.vercel.app",
   "dependencies": {
     "lightbox2": "^2.11.3"
   }
